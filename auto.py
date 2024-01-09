@@ -6,11 +6,11 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from shutil import move
 
-source_dir = "C:/Users/nguye/Downloads"
-music_dir = "C:/Users/nguye/Music"
-videos_dir = "C:/users/nguye/Videos"
-pdf_dir = "C:/Users/nguye/Documents/documents"
-image_dir = "C:/Users/nguye/Pictures/Camera Roll"
+source_dir = ""
+music_dir = ""
+videos_dir = ""
+pdf_dir = ""
+image_dir = ""
 
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw",
                     ".k25", ".bmp", ".dib", ".heif", ".heic", ".ind", ".indd", ".indt", ".jp2", ".j2k", ".jpf", ".jpf", ".jpx", ".jpm", ".mj2", ".svg", ".svgz", ".ai", ".eps", ".ico"]
